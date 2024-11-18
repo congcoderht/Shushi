@@ -23,4 +23,17 @@ app.get('/', (req, res) => {
     return res.render('home', { title: 'Home Page' });
 });
 
+app.get('/menu', (req, res) => {
+    res.render('menu', { title: 'Menu Page' });
+});
+
+app.get('/album', (req, res) => {
+    res.render('album', { title: 'Album Page' });
+});
+
+app.get('/branch', (req, res) => {
+    res.render('branch', { title: 'Branch Page' });
+});
+
+
 app.listen(port, () => console.log(`Example app listening on port at http://localhost:${port}`));

@@ -1,3 +1,12 @@
-h1{
-    color: rgb(170, 212, 86);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+@import'header';
+@import'footer';
+@import'branch';
+@import'home';
+@import'menu';
+@import'album';
+
